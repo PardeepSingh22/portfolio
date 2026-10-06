@@ -20,6 +20,7 @@ import "swiper/css/pagination";
 import { projects } from "../data/projects";
 import { graphics } from "../data/graphics";
 import profileImage from "../assets/profile-2.jpg";
+import bg3 from "../assets/bg3.jpg";
 
 
 
@@ -717,7 +718,7 @@ const Home = () => {
         <div className="relative mx-auto min-h-[700px] max-w-[1600px] overflow-hidden rounded-[2.5rem] bg-[#171614]">
 
           <img
-            src="src/assets/bg3.jpg"
+            src={bg3}
             alt="Pardeep working"
             className="absolute inset-0 h-full w-full object-cover opacity-50 transition duration-[2s] hover:scale-105"
           />
