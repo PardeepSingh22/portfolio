@@ -19,6 +19,9 @@ import "swiper/css/pagination";
 
 import { projects } from "../data/projects";
 import { graphics } from "../data/graphics";
+import profileImage from "../assets/profile-2.jpg";
+
+
 
 const GOLD = "#b08d57";
 const DARK = "#171614";
@@ -369,7 +372,7 @@ const Home = () => {
               <div className="relative aspect-[4/5] overflow-hidden rounded-[2.2rem] bg-[#171614] shadow-2xl">
 
                 <img
-                  src="src/assets/profile-2.jpg"
+                  src={profileImage}     
                   alt="Pardeep"
                   className="h-full w-full object-cover transition duration-1000 hover:scale-105 hover:grayscale-0"
                 />
