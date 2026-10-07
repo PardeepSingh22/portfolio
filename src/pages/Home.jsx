@@ -21,6 +21,7 @@ import { projects } from "../data/projects";
 import { graphics } from "../data/graphics";
 import profileImage from "../assets/profile-2.jpg";
 import bg3 from "../assets/bg3.jpg";
+import experiencebg from "../assets/experience.jpg";
 
 
 
@@ -1102,7 +1103,7 @@ const Home = () => {
       <section
   className="relative overflow-hidden bg-[#171614] px-5 py-32 text-white md:px-10 md:py-44"
   style={{
-    backgroundImage: "url('src/assets/experience.jpg')",
+    backgroundImage: "url('{experiencebg}')",
     backgroundSize: "cover",
     backgroundPosition: "center",
     backgroundRepeat: "no-repeat",
