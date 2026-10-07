@@ -1,9 +1,9 @@
-import graphic01 from "./assets/graphic-01.jpg";
-import graphic02 from "./assets/graphic-02.jpg";
-import graphic03 from "./assets/graphic-03.jpg";
-import graphic04 from "./assets/graphic-04.jpg";
-import graphic05 from "./assets/graphic-05.jpg";
-import graphic06 from "./assets/graphic-06.jpg";
+import graphic01 from "../assets/graphic-01.jpg";
+import graphic02 from "../assets/graphic-02.jpg";
+import graphic03 from "../assets/graphic-03.jpg";
+import graphic04 from "../assets/graphic-04.jpg";
+import graphic05 from "../assets/graphic-05.jpg";
+import graphic06 from "../assets/graphic-06.jpg";
 
 export const graphics = [
   {
