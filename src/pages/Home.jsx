@@ -1101,7 +1101,7 @@ const Home = () => {
       <section
   className="relative overflow-hidden bg-[#171614] px-5 py-32 text-white md:px-10 md:py-44"
   style={{
-    backgroundImage: "{experiencebg}",
+    backgroundImage: {experiencebg},
     backgroundSize: "cover",
     backgroundPosition: "center",
     backgroundRepeat: "no-repeat",
