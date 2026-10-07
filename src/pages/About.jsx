@@ -22,6 +22,7 @@ import { BiLogoAdobe } from "react-icons/bi";
 import { TfiPalette } from "react-icons/tfi";
 import { BsCss, BsOpenai } from "react-icons/bs";
 import { FaOpencart } from "react-icons/fa";
+import profileImage from "../assets/profile-2.jpg";
 
 
 /* =====================================================
@@ -235,7 +236,7 @@ const About = () => {
                 <div className="pointer-events-none absolute inset-4 z-10 rounded-[1.5rem] border border-white/30" />
 
                 <img
-                  src="src/assets/profile-2.jpg"
+                  src={profileImage} 
                   alt="Pardeep - Front End Developer"
                   className="aspect-[4/5] h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
                 />
