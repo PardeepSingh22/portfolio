@@ -1,3 +1,16 @@
+import pr1 from "../assets/projects/kimt.jpg";
+import pr2 from "../assets/projects/keshav.jpg";
+import pr3 from "../assets/projects/halifax.jpg";
+import pr4 from "../assets/projects/tri.jpg";
+import pr5 from "../assets/projects/greatway.jpg";
+import pr6 from "../assets/projects/prime.jpg";
+import pr7 from "../assets/projects/namd.jpg";
+import pr8 from "../assets/projects/alligatortyres.jpg";
+import pr9 from "../assets/projects/sos-md.jpg";
+import pr10 from "../assets/projects/munday.jpg";
+import pr11 from "../assets/projects/birdi.jpg";
+import pr12 from "../assets/projects/akal.jpg";
+
 export const projects = [
   {
     id: 1,
@@ -5,7 +18,7 @@ export const projects = [
     category: "Education",
     url: "https://www.kimtludhiana.org",
     number: "01",
-    image: "src/assets/projects/kimt.jpg",
+    image: pr1,
   },
   {
     id: 2,
@@ -13,7 +26,7 @@ export const projects = [
     category: "Corporate",
     url: "https://www.keshavindia.com",
     number: "02",
-    image: "src/assets/projects/keshav.jpg",
+   image: pr2,
   },
   {
     id: 3,
@@ -21,7 +34,7 @@ export const projects = [
     category: "Travel",
     url: "https://www.halifaxprimetours.com",
     number: "03",
-    image: "src/assets/projects/halifax.jpg",
+    image: pr3,
   },
   {
     id: 4,
@@ -29,7 +42,7 @@ export const projects = [
     category: "Corporate",
     url: "https://www.tridentglobalvcc.com",
     number: "04",
-     image: "src/assets/projects/tri.jpg",
+   image: pr4,
   },
   {
     id: 5,
@@ -37,7 +50,7 @@ export const projects = [
     category: "Industrial",
     url: "https://www.greatwayfasteners.com",
     number: "05",
-     image: "src/assets/projects/greatway.jpg",
+    image: pr5,
   },
   {
     id: 6,
@@ -45,7 +58,7 @@ export const projects = [
     category: "Medical",
     url: "https://www.primeusbiolabs.com",
     number: "06",
-     image: "src/assets/projects/prime.jpg",
+     image: pr6,
   },
   {
     id: 7,
@@ -53,7 +66,7 @@ export const projects = [
     category: "Industrial",
     url: "https://www.namdhariindtraders.com",
     number: "07",
-    image: "src/assets/projects/namd.jpg",
+    image: pr7,
   },
   {
     id: 8,
@@ -61,7 +74,7 @@ export const projects = [
     category: "Industrial",
     url: "https://www.alligatortyres.com",
     number: "08",
-     image: "src/assets/projects/alligatortyres.jpg",
+    image: pr8,
   },
   {
     id: 9,
@@ -69,7 +82,7 @@ export const projects = [
     category: "Medical",
     url: "https://www.sosmedical.co.uk",
     number: "09",
-    image: "src/assets/projects/sos-md.jpg",
+    image: pr9,
   },
   {
     id: 10,
@@ -77,7 +90,7 @@ export const projects = [
     category: "Corporate",
     url: "https://www.mundaygroup.com",
     number: "10",
-    image: "src/assets/projects/munday.jpg",
+    image: pr10,
   },
   {
     id: 11,
@@ -85,7 +98,7 @@ export const projects = [
     category: "Industrial",
     url: "https://www.birdiengineers.com",
     number: "11",
-    image: "src/assets/projects/birdi.jpg",
+   image: pr11,
   },
   {
     id: 12,
@@ -93,6 +106,6 @@ export const projects = [
     category: "Medical",
     url: "https://www.akalhomeocarecentre.com",
     number: "12",
-     image: "src/assets/projects/akal.jpg",
+   image: pr12,
   },
 ];
