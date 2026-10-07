@@ -23,6 +23,7 @@ import { TfiPalette } from "react-icons/tfi";
 import { BsCss, BsOpenai } from "react-icons/bs";
 import { FaOpencart } from "react-icons/fa";
 import profileImage from "../assets/profile-2.jpg";
+import skill from "../assets/skills.jpg";
 
 
 /* =====================================================
@@ -566,7 +567,7 @@ const About = () => {
               className="relative z-20 h-[175px] w-[175px] overflow-hidden rounded-full border-[6px] border-[#f4f0e8] shadow-[0_20px_60px_rgba(33,28,24,0.15)] sm:h-[210px] sm:w-[210px] md:h-[280px] md:w-[280px]"
             >
               <img
-                src="pr.jpg"
+                src={skill} 
                 alt="Pardeep - Front End Developer"
                 className="h-full w-full object-cover"
               />
